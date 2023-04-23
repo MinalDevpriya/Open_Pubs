@@ -7,7 +7,7 @@ from scipy.spatial import distance
 import folium
 
 
-df = pd.read_csv('pubs_cleaned.csv')
+df = pd.read_csv('open_pubs_cleaned.csv')
 
 def home():
     st.title('Welcome to the Pubs of the UK')
